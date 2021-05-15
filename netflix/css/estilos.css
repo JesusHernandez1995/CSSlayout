@@ -1,0 +1,82 @@
+/* ----------------------- Estilos generales ----------------------- */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #000;
+}
+
+.enlace{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    padding-right: 15px;
+}
+
+.titulo{
+    color: #fff;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+/* ------------------------- Estilos de los elementos del Header ---------------------- */
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-left-container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.nav-left{
+    margin-left: 45px;
+}
+
+.logo{
+    width: 200px;
+    margin: 20px 20px;
+}
+
+.logo img{
+    width: 100%;
+}
+
+.nav-right-container{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+}
+
+.nav-right-container > * {
+    padding-right: 28px;
+}
+
+/* ------------------------- Estilos de los elementos del Main ---------------------- */
+
+.documentales,
+.watch-again,
+.usa-series{
+    margin-top: 30px;
+}
+
+.pelis{
+    display: flex;
+    justify-content: center;
+}
+
+.caratula{
+    width: 18.5%;
+    margin-right: 12px;
+}
+
+.caratula img{
+    width: 100%;
+}
